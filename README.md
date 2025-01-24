@@ -1,4 +1,4 @@
-# Proyecto Fesrtival de Musica
+# Proyecto Festival de Musica
 
 Este proyecto web se desarrollo para poner en practica tecnologias como gulp, sass y gulp-sass
 
