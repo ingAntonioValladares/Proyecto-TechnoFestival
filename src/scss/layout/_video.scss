@@ -1,6 +1,6 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
-
+@use "sass:color";
 .video {
     position: relative;
     min-height: 35rem;
@@ -12,7 +12,8 @@
         background: linear-gradient(
             270deg,
             rgba(v.$morado,60%),
-            rgba(darken(v.$morado,20%),80%)
+            /*rgba(darken(v.$morado,20%),80%)]*/
+            rgba(color.adjust(v.$morado, $lightness: -20%), 0.8)
         );
         display: flex;
         align-items: center;
